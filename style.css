@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*--Global--*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+:root{
+  --main-white: #ffffff;
+  --main-blue: #00aeff;
+  --main-navyblue: #24116a;
+  --main-greenblue: #084482;
+}
+
+html{
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  background-color: var(--main-white);
+  font-family: 'Lato', 'sans-serif';
+  font-size: 1rem;
+  height: 100vh;
+}
+
+
+/*--NavBar--*/
+nav{
+  background-color: var(--main-greenblue);
+  color: #000000;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 0.875rem;
+}
+
+.nav-link{
+  color:#000000;
+}
+
+.nav-link:active, .active a{
+  border: 1px solid var(--main-blue);
+  border-radius: 5px;
+  color: var(--main-blue);
+}
+
+.nav-link:hover{
+  color: var(--main-blue);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/*--information-section--*/
+.information-section {
+  background-color: var(--blue);
+  color: var(--main-navyblue);
+  /* height: 100vh; */
+}
+
+.information-section h1 {
+  font-family: 'Lato Black', 'san-serif';
+  font-size: 2.625rem;
+  font-weight: 900;
+}
+
+.information-contents{
+  width: 40%;
+}
