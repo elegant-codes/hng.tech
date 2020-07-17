@@ -73,12 +73,14 @@ nav{
   font-family: 'Lato Black', 'san-serif';
   font-size: 2.625rem;
   font-weight: 900;
+  color: var(--main-navyblue);
 }
 
 .information-section h1 > .small {
   font-family: 'Lato', 'san-serif';
   color: var(--main-white);
   font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .information-contents .title{
@@ -90,6 +92,7 @@ nav{
   /* width: 40%; */
   margin: 2.25rem;
   padding: 4.375rem 0;
+  color: var(--main-white);
 }
 
 .information-contents p{
