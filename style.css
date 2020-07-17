@@ -282,9 +282,12 @@ footer {
     background-color: var(--main-greenblue);
   }
   .information-contents {
-    width: 95%;
+    width: 100%;
     padding: 2rem 0;
     margin:2.25rem auto;
+  }
+  .information-contents p{
+    width: 100%;
   }
   }
   
