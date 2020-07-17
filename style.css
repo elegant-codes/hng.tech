@@ -164,7 +164,7 @@ svg path {
   display: inline-block;
   border: none;
   text-decoration: none;
-  color: var(--main-greenblue);
+  color: var(--main-white);
   background-color: var(--main-blue);
   padding: 0.25rem 1rem;
   margin: 1rem 0;
