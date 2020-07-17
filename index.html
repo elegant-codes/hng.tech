@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="/assets/css/animate.css">
   <link rel="stylesheet" href="/assets/css/media-queries.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
@@ -61,7 +63,9 @@
      
     <div class="row d-flex">
         <div class="col-lg-6 col-sm-12 ">
-            <div class="information-contents animate__animated animate__fadeIn">
+            <div class="information-contents animate__animated animate__fadeIn" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <p class="title">The HNG Internship</p>
                 <h1>Perfection is always under Construction</h1>
                 <p> The HNG Internship is an ambitious attempt to change the way education is done in Africa. It’s the bridge between learning to code, and becoming the best in the world. </p>
@@ -72,7 +76,7 @@
 
         <div class="col-lg-6 col-sm-12">
             <div class="img-grid">
-                <div class="image-wrapper animate__animated animate__bounce">
+                <div class="image-wrapper animate__animated animate__bounce" >
                     <img src="/images/frontend.png" class="track-img" alt="frontend image" >
                     <p> <button class="img-btn">FrontEnd & BackEnd</button></p>
                 </div>
@@ -104,17 +108,22 @@
                         <img class="logo-footer" src="/images/brand-logo.png" alt="logo-footer" >
                     </div>
                 </div>
-                <div class="col-md-3 footer-contact animate__animated fadeInDown  animate__delay-2.5s">
+                <div class="col-md-3 footer-contact animate__animated fadeInDown  animate__delay-2.5s" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                     <p><i><img src="/images/location-icon.png"></i>  Birrel Avenue, Sabo.
                         Yaba, Lagos State,
                         Nigeria</p>
                     
                 </div>
-                <div class="col-md-3 footer-links footer-contact wow animate__animated fadeInUp animate__delay-3.3s">
+                <div class="col-md-3 footer-links footer-contact wow animate__animated fadeInUp animate__delay-3.3s " data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                             <p><i><img src="/images/email-icon.png"></i> hello@hng.tech</p>
                             <p><i><img src="/images/phone-icon.png"></i> +234 (0) 8123456789</p>
                 </div>
-                <div class="col-md-3 footer-links footer-contact wow fadeInDown animate__animated animate__delay-3.5s">
+                <div class="col-md-3 footer-links footer-contact wow fadeInDown animate__animated animate__delay-3.5s"  data-aos="fade-up"
+                data-aos-duration="3000">
                     <p> Follow Us On Social Media</p>
                     <p><i><img src="/images/twitter-icon.png"></i> @HngInternship</p>
                 </div>
@@ -138,9 +147,11 @@
 
 
 <!--Scripts-->
-<script src="/assets/js/wow.min.js"></script>
+
 <script src="/assets/js/scripts.js"></script>
- 
+<script>
+    AOS.init();
+</script>
 <!-- ./Footer -->
 </body>
 </html>
