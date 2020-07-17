@@ -1,4 +1,10 @@
-
+:root{
+  --main-white: #ffffff;
+  --main-blue: #00aeff;
+  --main-navyblue: #24116a;
+  --main-greenblue: #084482;
+  --main-light-greenblue: #1860a8;
+}
 
 .information-contents.join-start-ng {
   padding: 2rem ;
@@ -8,3 +14,13 @@
   margin: 0;
 }
 
+.information-contents {
+  color: var(--main-greenblue);
+}
+
+.join-start-ng .h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Lato Black';
+  color: var(--main-navyblue);
+}
