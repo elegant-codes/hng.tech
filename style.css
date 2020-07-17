@@ -27,7 +27,7 @@ body {
   font-family: 'Lato', 'sans-serif';
   font-size: 1rem;
  
-  background-color: var(--main-blue);
+  background-color: var(--main-white);
 }
 
 
@@ -57,6 +57,7 @@ nav{
   color: var(--main-blue);
 }
 
+
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
@@ -67,6 +68,7 @@ nav{
   color: var(--main-navyblue);
   line-height: 2.25rem;
   padding-top: 5rem;
+  position: relative;
 }
 
 .information-section h1 {
@@ -110,7 +112,21 @@ nav{
   text-decoration: none;
 }
 
-
+/*SVG*/
+.svg-border-rounded svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  width: 100%;
+}
+svg {
+  overflow: hidden;
+  vertical-align: bottom;
+}
+svg path {
+  fill: var(--main-greenblue);
+}
 /*information images left*/
 .img-grid {
   margin: 1.5rem;
@@ -149,7 +165,7 @@ nav{
   border: none;
   text-decoration: none;
   color: var(--main-greenblue);
-  background-color: var(--main-white);
+  background-color: var(--main-blue);
   padding: 0.25rem 1rem;
   margin: 1rem 0;
   webkit-transform: scale(1);
@@ -187,26 +203,17 @@ nav{
 
 footer {
   color: white; 
-  /* background-color: var(--main-greenblue); */
   background-position: top;
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
-  position: relative;
 }
 
-.curve-bg {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: -1;
-}
 
 .footer-img {
   position: absolute;
   left: 20%;
-  top: -275px;
+  top: -220px;
 }
 
 .footer-img-wrapper {
@@ -220,7 +227,7 @@ footer {
 }
 
 
-.footer-top { text-align: left; }
+.footer-top { text-align: left; background-color: var(--main-greenblue); }
 .footer-about img.logo-footer { max-width: 196px; margin-top: 0; margin-bottom: 18px; }
 
 .footer-contact p { 
@@ -253,6 +260,7 @@ footer {
 .footer-copyright { padding-top: 5px; }
 
 @media (min-width: 768px) and (max-width: 1203px) {
+  
   .footer-img {
     display: none;
   }
@@ -269,6 +277,7 @@ footer {
    html {
      font-size: 14px;
    }
+
   .footer-img {
     display: none;
   }
@@ -297,3 +306,23 @@ footer {
       flex-flow: column nowrap;
     }
    }
+
+  @media (max-width: 990px) {
+    nav {
+      font-size: 16px;
+    }
+    nav ul li {
+      background-color: var(--main-light-greenblue);
+      margin-bottom: 5px;
+      color: var(--main-white);
+      padding: 4px;
+      border-radius: 5px;
+    }
+    .nav-link{
+      color: var(--main-white);
+      text-align: center;
+    }
+  }
+
+  /*learning to code*/
+  
