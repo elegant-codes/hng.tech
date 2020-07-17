@@ -66,6 +66,7 @@ nav{
 .information-section {
   color: var(--main-navyblue);
   line-height: 2.25rem;
+  padding-top: 5rem;
 }
 
 .information-section h1 {
