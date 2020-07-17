@@ -258,14 +258,19 @@ footer {
      font-size: 14px;
    }
   .footer-img {
-    
     visibility: hidden;
+  }
+  .footer-contact i > img {
+    width: 4%;
   }
   .curve-bg{
     display: none;
   }
   .footer-top {
     background-color: var(--main-greenblue);
+  }
+  .informatjion-section {
+    border-radius: 100% / 0 0 30% 30%;
   }
   .information-contents {
     width: 100%;
