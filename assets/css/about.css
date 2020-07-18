@@ -60,7 +60,5 @@
  }
 
  @media (max-width: 430px) {
-  .mission-button {
-    flex-direction: column;
-  }
+  
  }
