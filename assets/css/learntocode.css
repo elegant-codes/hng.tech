@@ -26,3 +26,6 @@
 }
 
 /*Contact Us*/
+.contact input, .contact textarea {
+  border: 1px solid var(--main-light-greenblue);
+}
