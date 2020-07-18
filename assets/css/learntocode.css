@@ -7,10 +7,10 @@
 }
 
 .information-contents.join-start-ng {
-  /* padding: 2rem ; */
+  padding: 2rem ;
 }
 .information-section {
-  padding: auto;
+  padding: auto auto 5rem auto;
   margin: 0;
 }
 
