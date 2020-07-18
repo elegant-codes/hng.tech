@@ -13,6 +13,7 @@
 
   <!--STYLE-->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/assets/css/learntocode.css">
   <link rel="stylesheet" href="/assets/css/animate.css">
   <link rel="stylesheet" href="/assets/css/media-queries.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -30,7 +31,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto topnav">
+        <ul class="navbar-nav ml-auto topnav px-4">
             <li class="nav-item">
                 <a class="nav-link" href="#">About the internship <span class="sr-only">(current)</span></a>
             </li>
@@ -43,10 +44,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="">Become An Intern</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
                 <a class="nav-link" href="learntocode.html">Learn To code</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="contactus.html">Contact Us</a>
             </li>
             
@@ -59,34 +60,42 @@
 
 <!--Information-Section-->
 
- <div class="information-section container-fluid">
+ <div class="information-section join-start-ng container-fluid">
      
-    <div class="row d-flex">
+    <div class="row d-flex justify-content-around">
         <div class="col-lg-6 col-sm-12 ">
-            <div class="information-contents  animate__animated animate__fadeIn" data-aos="fade-right"
+            <div class="information-contents join-start-ng animate__animated animate__fadeIn" data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine">
-                <p class="title">The HNG Internship</p>
-                <h1>Perfection is always under Construction</h1>
-                <p> The HNG Internship is an ambitious attempt to change the way education is done in Africa. It’s the bridge between learning to code, and becoming the best in the world. </p>
-                <a href="#" class="btn-one">Become An Intern</a> 
+            <form class="py-5">
+                <div class="form-group mb-4">
+                    <label for="comment">Your Name:</label>
+                    <input type="text" class="form-control item border-primary" id="name" placeholder="name">
+                </div>
+        
+                <div class="form-group mb-4">
+                    <label for="comment">Email:</label>
+                    <input type="text" class="form-control item border-primary" id="email" placeholder="Email">
+                </div>
+                <div class="form-group mb-4">
+                    <label for="comment">Message:</label>
+                     <textarea class="form-control item border-primary" rows="5" id="comment" placeholder="Message"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <button type="button" class="btn text-light btn-outline-success pink-hover btn-one"><b>Submit</b></button>
+                </div>
+              </form>
+
             </div>
             
         </div>
 
         <div class="col-lg-6 col-sm-12">
-            <div class="img-grid">
-                <div class="image-wrapper animate__animated animate__bounce" >
-                    <img src="/images/frontend.png" class="track-img" alt="frontend image" >
-                    <p> <button class="img-btn">FrontEnd & BackEnd</button></p>
-                </div>
-                <div class="image-wrapper animate__animated animate__zoomIn animate__delay-2.5s">
-                    <img src="/images/uiux.png" class="track-img" alt="ui image" >
-                    <p><button class="img-btn">UI/UX Designs</button></p>
-                </div>
-                <div class="image-wrapper last-track-img animate__animated animate__bounce animate__delay-3s">
-                    <img src="/images/mobile-dev.png" class="track-img" alt="frontend image" >
-                    <p><button class="img-btn">Mobile Dev</button></p>
+            <div class="img-grid d-flex">
+                <div class="start-img"> <img src="/images/left-img.png" width=" 80%" class=" d-block py-md-4 py-sm-4"  data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"> 
                 </div>
             </div>
         </div>
@@ -142,8 +151,6 @@
                </div>
         </div>
     </div>
-    <img src="/images/footer-img.png" class="footer-img d-none-xs d-none-md" alt="">
-    <!-- <img src="/images/footer-clean-bg.png" alt="" class="curve-bg">  -->
 </footer>
 
 
