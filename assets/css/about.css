@@ -1,4 +1,4 @@
-:root{
+:root {
   --main-white: #ffffff;
   --main-blue: #00aeff;
   --main-navyblue: #24116a;
@@ -6,22 +6,22 @@
   --main-light-greenblue: #1860a8;
 }
 .about {
-  background-color: var(--main-blue);
+  background-color: var(--main-white);
   color: var(--main-navyblue);
-  padding-top: 3rem ;
+  padding-top: 3rem;
 }
 
 .about-title {
   padding: 2rem;
 }
 .about-title h1 {
-  font-family: 'Lato Black';
+  font-family: "Lato Black";
 }
 .about-title .head {
   font-size: 1.5rem;
 }
 
-.mission{
+.mission {
   background-color: var(--main-greenblue);
 }
 .mission-content {
@@ -29,40 +29,40 @@
   padding: 2rem;
 }
 
- .mission-title {
-   color: var(--main-blue);
-   font-size:  1.75rem;
- }
+.mission-title {
+  color: var(--main-blue);
+  font-size: 1.75rem;
+}
 
- .mission-list {
-    padding: 2rem;
-    color: var(--main-blue);
- }
- .mission-button{
-   background-color: var(--main-white);
-   border-radius: 10px;
-   width: 80%;
- }
- .mission-button p {
-   width: 50%;
-   padding: 0.25rem;
-   margin: 0;
- }
- .mission-num-wrapper-1 {
-   width: 72px;
-   padding: 10px;
- }
- .mission-num-wrapper-1 img{
+.mission-list {
+  padding: 2rem;
+  color: var(--main-blue);
+}
+.mission-button {
+  background-color: var(--main-white);
+  border-radius: 10px;
+  width: 80%;
+}
+.mission-button p {
+  width: 50%;
+  padding: 0.25rem;
+  margin: 0;
+}
+.mission-num-wrapper-1 {
+  width: 72px;
+  padding: 10px;
+}
+.mission-num-wrapper-1 img {
   width: 100%;
- }
- .mission-num-wrapper img {
-   width: 100%;
- }
+}
+.mission-num-wrapper img {
+  width: 100%;
+}
 
- .mission-section {
-   position: relative;
- }
+.mission-section {
+  position: relative;
+}
 
- footer {
-   color: var(--main-white);
- }
+footer {
+  color: var(--main-white);
+}
