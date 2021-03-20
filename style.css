@@ -24,7 +24,7 @@ html {
 body {
   width: 100%;
   background-color: var(--main-white);
-  font-family: "Lato", "sans-serif";
+  font-family: "Poppins", "Lato", "sans-serif";
   font-size: 1rem;
   background-color: var(--main-white);
 }
@@ -32,13 +32,12 @@ body {
 /*--NavBar--*/
 nav {
   background-color: var(--main-greenblue);
-  color: #000000;
   font-family: "Open Sans", "sans-serif";
   font-size: 0.875rem;
 }
 
 .nav-link {
-  color: #000000;
+  color: var(--main-white);
   transition: 0.3s;
 }
 
@@ -55,6 +54,10 @@ nav {
 
 .nav-link:hover {
   color: var(--main-blue);
+}
+
+.nav-item {
+  margin-left: 0.5rem;
 }
 
 .navbar-toggler-icon {
@@ -312,6 +315,9 @@ footer {
 }
 
 @media (max-width: 400px) {
+  .nav-item {
+    margin-left: 0;
+  }
   .img-grid {
     display: flex;
     flex-flow: column nowrap;
